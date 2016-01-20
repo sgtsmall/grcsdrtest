@@ -10,7 +10,7 @@
     </param>
     <param>
       <key>window_size</key>
-      <value>1550, 824</value>
+      <value>1250, 824</value>
     </param>
     <param>
       <key>category</key>
@@ -78,7 +78,7 @@
     </param>
     <param>
       <key>title</key>
-      <value>HF mult-imode transmitter</value>
+      <value>V/HF mult-imode transmitter</value>
     </param>
   </block>
   <block>
@@ -101,7 +101,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1224, 6)</value>
+      <value>(728, 150)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -199,7 +199,7 @@
     <key>variable_chooser</key>
     <param>
       <key>choices</key>
-      <value>[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]</value>
+      <value>[0,1,2,3,4,5,6,7]</value>
     </param>
     <param>
       <key>comment</key>
@@ -235,7 +235,7 @@
     </param>
     <param>
       <key>labels</key>
-      <value>['145.100','145.110','14.070','14.236','28.720','10','15','PRESET FREQUENCY']</value>
+      <value>['145.100','145.110','14.070','14.236','28.720','10','15','PRESET']</value>
     </param>
     <param>
       <key>notebook</key>
@@ -512,7 +512,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(480, 169)</value>
+      <value>(440, 150)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -539,7 +539,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(376, 161)</value>
+      <value>(352, 150)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -578,7 +578,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>3867000</value>
+      <value>145100000</value>
     </param>
   </block>
   <block>
@@ -605,7 +605,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(648, 175)</value>
+      <value>(568, 147)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -762,7 +762,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(48, 705)</value>
+      <value>(64, 669)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -825,7 +825,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(64, 310)</value>
+      <value>(64, 311)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -892,7 +892,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(320, 377)</value>
+      <value>(328, 360)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -955,7 +955,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(672, 385)</value>
+      <value>(664, 373)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1053,7 +1053,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(264, 705)</value>
+      <value>(272, 669)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1104,7 +1104,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(512, 385)</value>
+      <value>(504, 373)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1351,7 +1351,7 @@
     </param>
     <param>
       <key>freq0</key>
-      <value>100e6</value>
+      <value>lo_freq_Hz[freq_chooser]+tune+fine_tune-(tx_freq[side_band])</value>
     </param>
     <param>
       <key>if_gain0</key>
@@ -2335,7 +2335,7 @@
     </param>
     <param>
       <key>sample_rate</key>
-      <value>samp_rate</value>
+      <value>samp_rate/4</value>
     </param>
     <param>
       <key>sync</key>
@@ -2366,7 +2366,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(840, 368)</value>
+      <value>(784, 360)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -3069,7 +3069,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1056, 252)</value>
+      <value>(1024, 212)</value>
     </param>
     <param>
       <key>_rotation</key>
